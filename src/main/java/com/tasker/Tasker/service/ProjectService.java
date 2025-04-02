@@ -27,4 +27,24 @@ public class ProjectService {
     public List<Project> getUserProjects(User user) {
         return projectRepository.findByUser(user);
     }
+
+    public List<Project> getAllProjects() {
+        return projectRepository.findAll();
+    }
+
+    public Project getProject(Long projectId) {
+        return projectRepository.findById(projectId)
+                .orElseThrow(() -> new RuntimeException("Project not found with id: " + projectId));
+    }
+
+    public Project updateProject(Long projectId, String name, String description) {
+        Project project = getProject(projectId);
+        project.setName(name);
+        project.setDescription(description);
+        return projectRepository.save(project);
+    }
+
+    public void deleteProject(Long projectId) {
+        projectRepository.deleteById(projectId);
+    }
 }
