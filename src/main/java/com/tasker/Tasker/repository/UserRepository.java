@@ -1,6 +1,6 @@
 package com.tasker.Tasker.repository;
 
-import com.tasker.Tasker.model.User;
+import com.tasker.Tasker.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

@@ -1,10 +1,12 @@
 package com.tasker.Tasker.controller;
 
-import com.tasker.Tasker.dto.ProjectDTO;
+import com.tasker.Tasker.entity.User;
 import com.tasker.Tasker.model.Project;
 import com.tasker.Tasker.service.ProjectService;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.tasker.Tasker.service.UserService;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.core.context.SecurityContextHolder;
+import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -13,19 +15,27 @@ import java.util.List;
 @RequestMapping("/api/projects")
 public class ProjectController {
 
-    @Autowired
-    private ProjectService projectService;
+    private final ProjectService projectService;
+    private final UserService userService;
+
+    public ProjectController(ProjectService projectService, UserService userService) {
+        this.projectService = projectService;
+        this.userService = userService;
+    }
 
     @PostMapping
-    public ResponseEntity<Project> createProject(@RequestBody ProjectDTO projectDTO) {
-        Project project = new Project();
-        project.setName(projectDTO.getName());
-        project.setDescription(projectDTO.getDescription());
-        return ResponseEntity.ok(projectService.createProject(project));
+    public ResponseEntity<Project> createProject(@RequestBody Project project) {
+        String username = ((UserDetails) SecurityContextHolder.getContext().getAuthentication().getPrincipal()).getUsername();
+        User user = userService.findUserByUsername(username); // Fetch entity User
+        Project createdProject = projectService.createProject(project.getName(), project.getDescription(), user);
+        return ResponseEntity.ok(createdProject);
     }
 
     @GetMapping
     public ResponseEntity<List<Project>> getUserProjects() {
-        return ResponseEntity.ok(projectService.getUserProjects());
+        String username = ((UserDetails) SecurityContextHolder.getContext().getAuthentication().getPrincipal()).getUsername();
+        User user = userService.findUserByUsername(username); // Fetch entity User
+        List<Project> projects = projectService.getUserProjects(user);
+        return ResponseEntity.ok(projects);
     }
 }

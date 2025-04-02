@@ -1,33 +1,30 @@
 package com.tasker.Tasker.service;
 
+import com.tasker.Tasker.entity.User;
 import com.tasker.Tasker.model.Project;
-import com.tasker.Tasker.model.User;
 import com.tasker.Tasker.repository.ProjectRepository;
-import com.tasker.Tasker.repository.UserRepository;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 @Service
 public class ProjectService {
-    @Autowired
-    private ProjectRepository projectRepository;
 
-    @Autowired
-    private UserRepository userRepository;
+    private final ProjectRepository projectRepository;
 
-    public Project createProject(Project project) {
-        String username = SecurityContextHolder.getContext().getAuthentication().getName();
-        User user = userRepository.findByUsername(username).orElseThrow();
+    public ProjectService(ProjectRepository projectRepository) {
+        this.projectRepository = projectRepository;
+    }
+
+    public Project createProject(String name, String description, User user) {
+        Project project = new Project();
+        project.setName(name);
+        project.setDescription(description);
         project.setUser(user);
         return projectRepository.save(project);
     }
 
-    public List<Project> getUserProjects() {
-        String username = SecurityContextHolder.getContext().getAuthentication().getName();
-        User user = userRepository.findByUsername(username).orElseThrow();
-        return projectRepository.findByUserId(user.getId());
+    public List<Project> getUserProjects(User user) {
+        return projectRepository.findByUser(user);
     }
 }

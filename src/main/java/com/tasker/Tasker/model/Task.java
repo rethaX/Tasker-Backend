@@ -1,41 +1,38 @@
 package com.tasker.Tasker.model;
 
+import com.tasker.Tasker.entity.User;
 import jakarta.persistence.*;
-import lombok.Data;
-
-import java.util.Date;
 
 @Entity
 @Table(name = "tasks")
-@Data
 public class Task {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
-    @ManyToOne
-    @JoinColumn(name = "project_id", nullable = false)
-    private Project project;
 
     @Column(nullable = false)
     private String title;
 
     private String description;
 
-    @Enumerated(EnumType.STRING)
-    private Status status = Status.TODO;
+    @ManyToOne
+    @JoinColumn(name = "project_id", nullable = false)
+    private Project project;
 
-    @Enumerated(EnumType.STRING)
-    private Priority priority = Priority.MEDIUM;
+    @ManyToOne
+    @JoinColumn(name = "user_id", nullable = false)
+    private User user;
 
-    @Temporal(TemporalType.DATE)
-    private Date dueDate;
-
-    public enum Status {
-        TODO, IN_PROGRESS, DONE
-    }
-
-    public enum Priority {
-        LOW, MEDIUM, HIGH
-    }
+    // Getters and Setters
+    public Long getId() { return id; }
+    public void setId(Long id) { this.id = id; }
+    public String getTitle() { return title; }
+    public void setTitle(String title) { this.title = title; }
+    public String getDescription() { return description; }
+    public void setDescription(String description) { this.description = description; }
+    public Project getProject() { return project; }
+    public void setProject(Project project) { this.project = project; }
+    public User getUser() { return user; }
+    public void setUser(User user) { this.user = user; }
 }

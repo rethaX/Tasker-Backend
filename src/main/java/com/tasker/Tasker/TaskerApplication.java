@@ -9,5 +9,4 @@ public class TaskerApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(TaskerApplication.class, args);
 	}
-
 }
