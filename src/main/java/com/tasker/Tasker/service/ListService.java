@@ -38,4 +38,31 @@ public class ListService {
                 .orElseThrow(() -> new RuntimeException("Board not found with id: " + boardId));
         return board.getLists();
     }
+
+    public List<ListEntity> getAllLists(Long boardId) {
+        logger.info("Fetching all lists for board: {}", boardId);
+        if (boardId != null) {
+            return getListsByBoard(boardId);
+        }
+        return listRepository.findAll();
+    }
+
+    public ListEntity getList(Long listId) {
+        logger.info("Fetching list: {}", listId);
+        return listRepository.findById(listId)
+                .orElseThrow(() -> new RuntimeException("List not found with id: " + listId));
+    }
+
+    public ListEntity updateList(Long listId, String name) {
+        logger.info("Updating list: {}", listId);
+        ListEntity list = getList(listId);
+        list.setName(name);
+        return listRepository.save(list);
+    }
+
+    public void deleteList(Long listId) {
+        logger.info("Deleting list: {}", listId);
+        ListEntity list = getList(listId);
+        listRepository.delete(list);
+    }
 }

@@ -32,11 +32,11 @@ public class AuthController {
     }
 
     @PostMapping("/login")
-    public ResponseEntity<String> login(@RequestParam String username, @RequestParam String password) {
+    public ResponseEntity<String> login(@RequestBody LoginRequest request) {
         Authentication authentication = authenticationManager.authenticate(
-                new UsernamePasswordAuthenticationToken(username, password));
+                new UsernamePasswordAuthenticationToken(request.username(), request.password()));
         if (authentication.isAuthenticated()) {
-            String token = jwtService.generateToken(username);
+            String token = jwtService.generateToken(request.username());
             return ResponseEntity.ok(token);
         }
         return ResponseEntity.status(401).body("Invalid credentials");
@@ -66,4 +66,7 @@ public class AuthController {
         userService.deleteUser(userId);
         return ResponseEntity.noContent().build();
     }
+
+    // Add this record to map the JSON body
+    record LoginRequest(String username, String password) {}
 }
