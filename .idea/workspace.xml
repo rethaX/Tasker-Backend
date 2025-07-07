@@ -5,85 +5,89 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6cc0826b-c2cc-4d93-9ebc-56c1c0e1a9df" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/TaskerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/TaskerApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/config/JwtAuthenticationFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/config/JwtAuthenticationFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/config/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/config/SecurityConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/controller/AttachmentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/controller/AttachmentController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/controller/AuthController$LoginRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/controller/AuthController$LoginRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/controller/AuthController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/controller/AuthController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/controller/ChecklistController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/controller/ChecklistController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/controller/CommentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/controller/CommentController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/controller/EpicController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/controller/EpicController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/controller/GlobalExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/controller/GlobalExceptionHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/controller/LabelController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/controller/LabelController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/controller/ListController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/controller/ListController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/controller/ProjectController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/controller/ProjectController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/controller/ReportController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/controller/ReportController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/controller/SprintController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/controller/SprintController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/controller/TaskController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/controller/TaskController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/controller/TimeLogController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/controller/TimeLogController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/controller/WorkspaceController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/controller/WorkspaceController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/dto/LoginRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/dto/LoginRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/dto/ProjectDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/dto/ProjectDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/dto/RegisterRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/dto/RegisterRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/dto/TaskDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/dto/TaskDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/entity/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/exception/ResourceNotFoundException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/exception/ResourceNotFoundException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/model/Attachment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/model/Attachment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/model/Board.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/model/Board.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/model/Checklist.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/model/Checklist.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/model/ChecklistItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/model/ChecklistItem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/model/Comment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/model/Comment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/model/Component.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/model/Component.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/model/Epic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/model/Epic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/model/ErrorResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/model/ErrorResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/model/Label.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/model/Label.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/model/ListEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/model/ListEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/model/Project.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/model/Project.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/model/Sprint.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/model/Sprint.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/model/SprintRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/model/SprintRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/model/Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/model/Task.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/model/TaskRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/model/TaskRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/model/TimeLog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/model/TimeLog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/model/TimeLogRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/model/TimeLogRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/model/Version.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/model/Version.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/model/Workspace.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/model/Workspace.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/repository/AttachmentRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/repository/AttachmentRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/repository/BoardRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/repository/BoardRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/repository/ChecklistItemRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/repository/ChecklistItemRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/repository/ChecklistRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/repository/ChecklistRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/repository/CommentRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/repository/CommentRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/repository/ComponentRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/repository/ComponentRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/repository/EpicRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/repository/EpicRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/repository/LabelRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/repository/LabelRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/repository/ListRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/repository/ListRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/repository/ProjectRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/repository/ProjectRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/repository/SprintRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/repository/SprintRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/repository/TaskRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/repository/TaskRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/repository/TimeLogRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/repository/TimeLogRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/repository/UserRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/repository/VersionRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/repository/VersionRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/repository/WorkspaceRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/repository/WorkspaceRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/service/AttachmentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/service/AttachmentService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/service/ChecklistService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/service/ChecklistService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/service/CommentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/service/CommentService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/service/EmailService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/service/EmailService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/service/EpicService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/service/EpicService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/service/JwtService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/service/JwtService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/service/LabelService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/service/LabelService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/service/ListService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/service/ListService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/service/ProjectService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/service/ProjectService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/service/SlackIntegrationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/service/SlackIntegrationService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/service/SprintService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/service/SprintService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/service/TaskAutomationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/service/TaskAutomationService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/service/TaskService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/service/TaskService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/service/TimeLogService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/service/TimeLogService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/service/WorkspaceService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/service/WorkspaceService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/tasker/Tasker/TaskerApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/tasker/Tasker/TaskerApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/TaskerApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/config/JwtAuthenticationFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/config/SecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/controller/AttachmentController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/controller/AuthController$LoginRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/controller/AuthController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/controller/ChecklistController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/controller/CommentController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/controller/EpicController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/controller/GlobalExceptionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/controller/LabelController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/controller/ListController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/controller/ProjectController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/controller/ReportController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/controller/SprintController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/controller/TaskController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/controller/TimeLogController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/controller/WorkspaceController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/dto/LoginRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/dto/ProjectDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/dto/RegisterRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/dto/TaskDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/entity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/exception/ResourceNotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/model/Attachment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/model/Board.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/model/Checklist.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/model/ChecklistItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/model/Comment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/model/Component.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/model/Epic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/model/ErrorResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/model/Label.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/model/ListEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/model/Project.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/model/Sprint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/model/SprintRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/model/Task.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/model/TaskRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/model/TimeLog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/model/TimeLogRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/model/Version.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/model/Workspace.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/repository/AttachmentRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/repository/BoardRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/repository/ChecklistItemRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/repository/ChecklistRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/repository/CommentRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/repository/ComponentRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/repository/EpicRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/repository/LabelRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/repository/ListRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/repository/ProjectRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/repository/SprintRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/repository/TaskRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/repository/TimeLogRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/repository/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/repository/VersionRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/repository/WorkspaceRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/service/AttachmentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/service/ChecklistService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/service/CommentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/service/EmailService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/service/EpicService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/service/JwtService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/service/LabelService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/service/ListService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/service/ProjectService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/service/SlackIntegrationService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/service/SprintService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/service/TaskAutomationService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/service/TaskService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/service/TimeLogService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tasker/Tasker/service/WorkspaceService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/tasker/Tasker/TaskerApplicationTests.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,31 +120,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.TaskerApplication.executor&quot;: &quot;Run&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;Spring Boot.TaskerApplication.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/retha/OneDrive/Documents/GitHub/Tasker-Backend&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.annotationProcessors&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.TaskerApplication.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.TaskerApplication.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/retha/OneDrive/Documents/GitHub/Tasker-Backend",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="TaskerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="Tasker" />
@@ -169,6 +174,7 @@
       <workItem from="1747653629076" duration="942000" />
       <workItem from="1748245402720" duration="26000" />
       <workItem from="1748258820181" duration="127000" />
+      <workItem from="1751887793797" duration="389000" />
     </task>
     <servers />
   </component>
